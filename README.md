@@ -2,9 +2,9 @@
 This is one updated version of 'PropertyFinder' app which works in lastest React-Native. 
 
 # Description
-Following the website [tutorial I published on Ray Wenderlich's website](http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript). I clean some unnecessary code and update the origin version of [ReactNative-PropertyFinder](https://github.com/ColinEberhardt/ReactNative-PropertyFinder).
+Following the website published on [Ray Wenderlich](http://www.raywenderlich.com/99473/introducing-react-native-building-apps-javascript) and [zhihu](https://zhuanlan.zhihu.com/p/19996445). I clean code and update the original of 'PropertyFinder' app, which is originally implemented in [ReactNative-PropertyFinder](https://github.com/ColinEberhardt/ReactNative-PropertyFinder).
 
-How to use it is quite straightforward:
+It is quite straightforward to use it:
 ```sh
 >> react-native init PropertyFinder
 >> npm install
