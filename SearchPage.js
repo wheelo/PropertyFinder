@@ -23,9 +23,6 @@ var styles = StyleSheet.create({
         justifyContent: 'center',
         padding: 8,
     },
-    gray: {
-        backgroundColor: '#cccccc',
-    },
     description: {
         marginBottom: 20,
         fontSize: 18,
@@ -139,7 +136,7 @@ export default class SearchPage extends Component {
                 'Content-Type': 'application/json'
               }
             })
-            .then(response => response.json())
+            .then( response => response.json() )
             .then( json => this._handleResponse(json.response) )
             .catch(error => 
                 this.setState({
